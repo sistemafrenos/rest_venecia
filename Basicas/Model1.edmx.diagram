@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec90e6ae444d4c26930cdabeec8708f4" Name="Diagram1">
+        <EntityTypeShape EntityType="VeneciaModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Cliente" Width="1.5" PointX="7.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Compra" Width="1.5" PointX="10.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.ComprasIngrediente" Width="1.5" PointX="13" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Contadore" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Factura" Width="1.5" PointX="10.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.FacturasPlato" Width="1.5" PointX="13" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Impuesto" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Ingrediente" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.IngredientesInventario" Width="1.5" PointX="8" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.IngredientesInventariosHistorial" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.LibroCompra" Width="1.5" PointX="2.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.LibroInventario" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.LibroVenta" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Mesa" Width="1.5" PointX="14.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.MesasAbierta" Width="1.5" PointX="5.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.MesasAbiertasPlato" Width="1.5" PointX="8" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.MesasAbiertasPlatosAnulado" Width="1.5" PointX="15.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Mesonero" Width="1.5" PointX="6.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Parametro" Width="1.5" PointX="15.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Plato" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.PlatosCombo" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.PlatosComentario" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.PlatosContorno" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.PlatosIngrediente" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Proveedore" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Retencione" Width="1.5" PointX="17.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Usuario" Width="1.5" PointX="17.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VeneciaModel.Vale" Width="1.5" PointX="12.75" PointY="17.75" IsExpanded="true" />
+        <AssociationConnector Association="VeneciaModel.FK_CompraIngrediente" ManuallyRouted="false" />
+        <AssociationConnector Association="VeneciaModel.FK_FacturaPlato" ManuallyRouted="false" />
+        <AssociationConnector Association="VeneciaModel.FK_IngredienteInventario" ManuallyRouted="false" />
+        <AssociationConnector Association="VeneciaModel.FK_MesaAbiertaPlato" ManuallyRouted="false" />
+        <AssociationConnector Association="VeneciaModel.FK_PlatoCombo" ManuallyRouted="false" />
+        <AssociationConnector Association="VeneciaModel.FK_PlatoComentario" ManuallyRouted="false" />
+        <AssociationConnector Association="VeneciaModel.FK_PlatoContorno" ManuallyRouted="false" />
+        <AssociationConnector Association="VeneciaModel.FK_PlatoIngrediente" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
